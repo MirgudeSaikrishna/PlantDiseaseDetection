@@ -532,6 +532,6 @@ Prediction: Highest probability = Detected Disease
 ---
 
 **Document Version:** 1.0  
-**Last Updated:** 2024  
+**Last Updated:** 2025  
 **Model:** ImprovedCNN for Plant Disease Detection
 
