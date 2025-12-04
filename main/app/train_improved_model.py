@@ -283,7 +283,11 @@ class PlantDiseaseTrainer:
 def main():
     """Main training function"""
     # Configuration
-    DATA_PATH = "Dataset"  # Update with your dataset path
+    # Dataset path options:
+    # Option 1: If dataset is in main/app/Dataset/ -> use "Dataset"
+    # Option 2: If dataset is in main/Dataset/ -> use "../Dataset"
+    # Option 3: Use absolute path -> use r"C:\path\to\Dataset"
+    DATA_PATH = "../Dataset"  # Update with your dataset path
     BATCH_SIZE = 32
     EPOCHS = 50
     LEARNING_RATE = 0.001

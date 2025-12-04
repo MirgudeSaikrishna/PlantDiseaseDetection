@@ -51,6 +51,11 @@ package-lock.json (optional, but recommended)
 *.model
 *.pkl
 
+# Dataset folders (too large for git)
+Dataset/
+main/Dataset/
+**/Dataset/
+
 # Database files
 *.db
 *.sqlite
